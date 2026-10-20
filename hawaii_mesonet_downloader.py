@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
-# import cartopy.crs as ccrs
 import json
 import os
 import argparse
@@ -13,11 +12,6 @@ import argparse
 with open('/home/disk/hot/shepard0/keys/hawaii_mesonet.txt') as f:
     lines = f.readlines()
 key=lines[0]
-
-# TAKES ARGUMENTS:
-#   -s (START DATE) in format 'yyyymmddhh'
-#   -e (END DATE) in format 'yyyymmddhh'
-#   -i (INTERVAL) in format int(h)
 
 
 
